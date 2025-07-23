@@ -1,3 +1,3 @@
 # techaccord
 
-A new Flutter project.
+Online TechAccord Academy
