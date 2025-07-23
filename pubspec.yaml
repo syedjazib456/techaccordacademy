@@ -1,0 +1,39 @@
+name: techaccord
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  cached_network_image: ^3.3.1
+  url_launcher: ^6.3.1
+  connectivity_plus: ^5.0.2
+  image_picker: ^1.1.0
+  google_fonts: ^6.0.0
+  youtube_player_flutter: ^9.1.1
+  flutter_inappwebview: ^6.0.0-beta.25
+  video_player: ^2.7.2
+  webview_flutter: ^4.7.0
+  file_picker: ^8.0.0
+  flutter_launcher_icons: ^0.14.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/user_gif.png
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  
